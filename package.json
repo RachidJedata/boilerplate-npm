@@ -1,15 +1,18 @@
 {
-	"name": "fcc-learn-npm-package-json",
+  "name": "fcc-learn-npm-package-json",
+  "version": "1.0.0",
+  "description": "A project to learn about package.json and npm",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RachidJedata/boilerplate-npm.git"
+  },
   "author": "Rachid Jedata",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
-	}
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "license": "MIT"
 }
